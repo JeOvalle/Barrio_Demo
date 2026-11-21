@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suba Compartir | Informacion del barrio</title>
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="cabecera">
+      <div>
+        <h1 id="nombre-barrio">Suba Compartir</h1>
+        <p id="alias-barrio" class="alias">Cargando alias del barrio...</p>
+      </div>
+      <p class="nota">Vista de solo consulta. Las fuentes sin verificar se muestran como "sin fuente".</p>
+    </header>
+
+    <main class="layout">
+      <section class="mapa-contenedor" aria-label="Mapa del barrio">
+        <div id="mapa"></div>
+      </section>
+
+      <section class="panel-contenedor" aria-label="Modulos de consulta">
+        <div id="tarjetas" class="tarjetas"></div>
+      </section>
+    </main>
+
+    <script src="/vendor/leaflet/leaflet.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "id": "suba-compartir",
+  "nombre": "Suba Compartir",
+  "alias": ["Suba Compartir", "Sabana de Tibabuyes Norte"],
+  "nota": "Geometrias de referencia aproximadas. Reemplazar con fuente oficial al validar en la tarea 6.2.",
+  "niveles": {
+    "barrio": {
+      "id": "suba-compartir",
+      "nombre": "Suba Compartir",
+      "disponible": true,
+      "precision": "aproximada",
+      "poligono": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.1, 4.735],
+            [-74.075, 4.735],
+            [-74.075, 4.755],
+            [-74.1, 4.755],
+            [-74.1, 4.735]
+          ]
+        ]
+      },
+      "centroide": [-74.0875, 4.745],
+      "bbox": [-74.1, 4.735, -74.075, 4.755]
+    },
+    "upz": {
+      "id": "suba-compartir-upz",
+      "nombre": "UPZ de Suba Compartir",
+      "disponible": false,
+      "precision": null,
+      "poligono": null,
+      "centroide": null,
+      "bbox": null
+    },
+    "localidad": {
+      "id": "suba",
+      "nombre": "Suba",
+      "disponible": true,
+      "precision": "aproximada",
+      "poligono": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.16, 4.69],
+            [-74.03, 4.69],
+            [-74.03, 4.82],
+            [-74.16, 4.82],
+            [-74.16, 4.69]
+          ]
+        ]
+      },
+      "centroide": [-74.095, 4.755],
+      "bbox": [-74.16, 4.69, -74.03, 4.82]
+    }
+  }
+}
